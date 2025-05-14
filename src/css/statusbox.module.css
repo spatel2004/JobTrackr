@@ -1,0 +1,34 @@
+.statusBoxContainer {
+    width:285px;
+    height:175px;
+    border:1px solid #1D2638;
+    border-radius:10px;
+    background-color:#111A2F;
+    padding:5px 20px 0px 25px;
+    margin:0;
+}
+
+.title {
+    color:#94A3B8;
+    font-size:15px;
+    font-weight:bolder;
+    margin-bottom:0;
+    padding-top:10px;
+}
+
+.statusBoxIcon {
+    width:17px;
+    height:17px;
+    padding:7px;
+    background-color:#1C2143;
+    border-radius:50%;
+    margin-top:12px;
+}
+
+.number {
+    font-size:25px;
+    color:white;
+    font-weight:bolder;
+    margin-top:5px;
+    margin-left:3px;
+}

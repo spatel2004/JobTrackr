@@ -1,0 +1,67 @@
+.recentApplication {
+    display:flex;
+    justify-content:space-between;
+    border:1px solid #1D2539;
+    background-color:#111A2F;
+    border-radius:10px;
+    padding:10px 10px;
+}
+
+.recentApplication:hover {
+    background-color:#18243e;
+}
+
+.leftSide {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+}
+
+.letter {
+    background-color:#272956;
+    color:#7E62F4;
+    border-radius:50%;
+    padding:6px 13px;
+    font-weight:bolder;
+}
+
+.companyAndPosition {
+    margin:0;
+    padding-top:5px;
+    font-size:12px;
+}
+
+.position {
+    font-weight:bolder;
+}
+
+.position, .company {
+    margin:0;
+}
+
+.company {
+    color: #94A3B8
+}
+
+.rightSide {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.status {
+    border:1px solid #772D44;
+    background-color:#402439;
+    color: #FB7185;
+    border-radius:10px;
+    font-size:14px;
+    padding:2px 8px;
+    margin:0;
+}
+
+.date {
+    font-size:12px;
+    margin:0;
+}

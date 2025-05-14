@@ -1,0 +1,28 @@
+.feature {
+    padding:15px 10px 20px 5px;
+    background-color: #272E3E;
+    border:1px solid #303948;
+    width:350px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.featureIcon {
+    padding:15px;
+    background-color:#373963;
+    border-radius:10px;
+    height:20px;
+    width:20px;
+    margin-top:20px;
+}
+
+.featureTitle {
+    font-weight:bolder;
+    font-size:22px;
+}
+
+.featureDescription {
+    color:#D1D5DB;
+    font-size:15px;
+    text-wrap:pretty;
+}

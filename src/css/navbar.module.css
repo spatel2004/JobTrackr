@@ -1,0 +1,51 @@
+.navbarContainer {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    padding:5px 0px;
+}
+
+.navbarDate {
+    color:white;
+    font-size:20px;
+    margin-left:30px;
+}
+
+.navbarSearchAndAddJobContainer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-right:50px;
+}
+
+.navbarSearch {
+    background-color:#1A2334;
+    padding:12px;
+    border:1px solid #333A49;
+    border-radius:10px;
+}
+
+.navbarSearch:hover {
+    background-color:#243149;
+    cursor:pointer;
+}
+
+.addJob {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    background-color: #7E62F4;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:12px 20px;
+    font-weight:bolder;
+}
+
+.addJob:hover {
+    background-color: #7459e2;
+    cursor:pointer;
+}
